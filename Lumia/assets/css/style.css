@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(255,255,255, 1);
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -372,7 +372,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
 }
 
 .section-title {
@@ -546,6 +546,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
   padding: 10px 0;
 }
 .about h3 {
@@ -624,7 +625,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: white;
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
   padding: 30px 0 40px 0;
 }
 .counts .count-box {
@@ -1170,11 +1171,11 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f7fbfe;
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
