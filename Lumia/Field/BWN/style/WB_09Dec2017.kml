@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>RADARSAT-2 APT KML Export WB_09Dec2017</name>
+		<description>APT Orbit Configuration: Nominal_2010-Feb-24-Version</description>
+		<Style id="SwathPolygonStyle"><LineStyle><color>ff00ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+		<Style id="FramePolygonStyle"><LineStyle><color>ff82ffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+		<Style id="RegionPolygonStyle"><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+		<Folder>
+			<name>swath-1</name>
+			<Placemark>
+				<name>swath-1</name>
+				<description>
+Satellite: RADARSAT-2
+Swath ID: swath-1
+Start UTC Time: 2017-12-09T12:14:27.762Z
+Stop UTC Time: 2017-12-09T12:14:32.217Z
+Start Abs. Orbit: 52135.061530713
+Start Cycle, Rel. Orbit: 151, 106.061530713
+Duration (orbs): 0.000736760
+Duration (secs): 4.454
+Sensor Mode: Fine Quad Polarization
+Beam: FQ17
+Incidence Angle: 36.60
+Tx Polarization: H+V
+Rx Polarization: H+V
+Pass Direction: Ascending
+Satellite Orientation: Right-looking
+Reception Facility: PASS
+Main Priority: 25
+Sub Priority: 10
+Framing: None
+				</description>
+				<styleUrl>#SwathPolygonStyle</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									88.11374,23.29408,0
+									88.12350,23.24715,0
+									88.13474,23.19310,0
+									88.14598,23.13905,0
+									88.15722,23.08500,0
+									88.16846,23.03096,0
+									87.94128,22.98979,0
+									87.92995,23.04385,0
+									87.91862,23.09791,0
+									87.90729,23.15196,0
+									87.89595,23.20602,0
+									87.88611,23.25296,0
+									88.11374,23.29408,0
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+			<Placemark>
+				<name>region01.rgn</name>
+				<styleUrl>#RegionPolygonStyle</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									88.02278,23.27667,0
+									87.97250,23.26861,0
+									87.92833,23.24500,0
+									87.89583,23.20889,0
+									87.87833,23.16472,0
+									87.87833,23.11750,0
+									87.89583,23.07333,0
+									87.92861,23.03722,0
+									87.97278,23.01361,0
+									88.02278,23.00556,0
+									88.07278,23.01361,0
+									88.11694,23.03722,0
+									88.14972,23.07333,0
+									88.16722,23.11750,0
+									88.16722,23.16472,0
+									88.14972,23.20889,0
+									88.11722,23.24500,0
+									88.07306,23.26861,0
+									88.02278,23.27667,0
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+	</Document>
+</kml>
