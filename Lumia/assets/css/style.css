@@ -496,7 +496,7 @@ section {
   background-color: rgba(var(--color-white-rgb), 1);
 }
 .carousel-item {
-  height: 80vh;
+  height: 75vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
