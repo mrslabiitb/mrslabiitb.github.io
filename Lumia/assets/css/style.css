@@ -965,14 +965,13 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 5px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  padding: 5px 5px;
-  background: #fff;
+    background: #fff;
 }
 .team .member img {
-  max-width: 20%;
-  border-radius: 60%;
-  margin: 0 0 30px 0;
+  max-width: 60%;
+  height:auto;
+  
+  margin: 0 0 10px 0;
 }
 .team .member h4 {
   font-weight: 700;
@@ -991,18 +990,54 @@ section {
   color: #aaaaaa;
 }
 .team .member .social {
-  margin-top: 15px;
+  text-align: center;
+  margin-top: 10px;
 }
 .team .member .social a {
+  text-align: center;
   color: #919191;
   transition: 0.3s;
 }
 .team .member .social a:hover {
+  text-align: center;
   color: #3498db;
 }
 .team .member .social i {
-  font-size: 40px;
-  margin: 0 2px;
+  text-align: center;
+  font-size: 30px;
+  margin: 2 2px;
+}
+
+.team.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.team.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.team.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.team.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.team.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.team.about .desc h3{
+ color: #10828C;
+}
+.team.about .desc p{
+ line-height:2;
+ color:#888;
 }
 
 /*--------------------------------------------------------------
