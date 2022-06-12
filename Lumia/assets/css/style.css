@@ -992,14 +992,16 @@ section {
 .team .member .social {
   text-align: center;
   margin-top: 10px;
+  color: #3498db;
 }
 .team .member .social a {
-  text-align: center;
+  text-align: center;11
   color: #919191;
   transition: 0.3s;
 }
 .team .member .social a:hover {
   text-align: center;
+  margin-top: 10px;
   color: #3498db;
 }
 .team .member .social i {
