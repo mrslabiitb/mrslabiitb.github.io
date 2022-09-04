@@ -1252,6 +1252,7 @@ section {
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  align-items: right;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
