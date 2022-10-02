@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -713,6 +714,7 @@ section {
 .news-div {
   /* text-align: center; */
   margin-top: 2vw;
+  font-family: 'Mukta', sans-serif;
 }
 .news-div li{
   /* transition: all 0.5s ease-in-out; */
@@ -734,11 +736,17 @@ section {
 }
 .tweets {
   position: relative;
-  left: 4%;
+  left: 10%;
+  right: 10%;
+  /* border: 5px solid black; */
+  /* position: relative; */
+  /* width: 20%; */
   align-items: center;
   text-align: center;
 }
-
+.news-div{
+  height: 1vw;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -864,7 +872,9 @@ section {
 .research .icon-box:hover h4 a {
   color: #3498db;
 }
-
+.research{
+  margin-left:5%;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1106,13 +1116,13 @@ section {
   padding: 30px 30px 0 30px;
   margin: 30px 15px;
   text-align: center;
-  min-height: 350px;
+  min-height: 250px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 300px;
+  width: 240px;
   align-items: center;
   border: 4px solid #fff;
   margin: 0 auto;
@@ -1641,12 +1651,18 @@ section {
 
 .floatleft {
   float: left;
-  width: 80%;
+  width: 70%;
   background-color: #ffffff;
   height: auto;
 }
 
 .floatright {
+  float: right;
+  height: auto;
+  width: 30%;
+  padding-right: 20px;
+}
+/* .floatright {
   position: absolute;
   top: 90%;
   right: 2%;
@@ -1654,4 +1670,44 @@ section {
   height: auto;
   width: 20%;
   padding-right: 20px;
+} */
+
+@media (max-width: 500px) {
+  .about {
+    margin-left: 2vw;
+    /* padding-left: 20vw; */
+    width: 120%;
+    /* margin-right: 2vw; */
+  }
+  .floatleft{
+    float:none;
+
+    background-color: #ffffff;
+    height: auto;
+  }
+  .floatright{
+    float: none;
+  }
+  .counts{
+    margin-left: 20%;
+  }
+  .testimonials .testimonial-item {
+
+    padding: 0;
+}
+.testimonials .testimonial-item .testimonial-img {
+  width: 220px;
+  align-items: center;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  padding: 30px 30px 0 30px;
+  margin: 30px 15px;
+  text-align: center;
+  min-height: 250px;
+  box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+  background: #fff;
+}
 }
