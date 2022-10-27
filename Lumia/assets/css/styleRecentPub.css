@@ -1,0 +1,24 @@
+#main_RP {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    padding: 5vh;
+    align-items: center;
+    /* height: 60vh;
+    width: 40vw; */
+    box-shadow: 20px rgba(127, 137, 161, 0.25);
+}
+
+#main_RP_heading {
+    padding: 1% 1% 0% 1%;
+    align-self: center;
+}
+
+#RP_data {
+    padding: 2%;
+    align-self: center;
+}
+
+.RP_data_list {
+    margin: 2%;
+}

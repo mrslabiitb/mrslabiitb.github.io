@@ -723,6 +723,7 @@ section {
   border-bottom: 1px dotted #777777;
   margin-bottom: 5px;
   word-spacing: 2px;
+  padding: 5px;
 }
 .dates{
   color: black;
@@ -832,6 +833,21 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Masters' Students
+--------------------------------------------------------------*/
+
+.master-heading{
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.student-data{
+  color: rgb(124, 124, 124);
+}
+.masters-list{
+  margin: 20px;
+}
+
+/*--------------------------------------------------------------
 # Research
 --------------------------------------------------------------*/
 .research .icon-box {
@@ -875,6 +891,32 @@ section {
 }
 .research{
   margin-left:5%;
+}
+
+
+.animation {
+  width: 20%;
+  border-bottom: 5px solid white;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+      width: 20%;
+      /* height: 0px; */
+  }
+  30% {
+      width: 30%;
+      /* height: 0px; */
+  }
+  60% {
+      width: 60%;
+      /* height: 80px; */
+  }
+  100% {
+    width: 97%;
+  }
 }
 /*--------------------------------------------------------------
 # Portfolio
@@ -1496,6 +1538,7 @@ section {
 }
 
 #footer .footer-top {
+  margin-top: 20px;
   padding: 60px 0 30px 0;
   background-image: linear-gradient(90deg, #2B547E, #3CB371, #C24641);
 }
@@ -1692,12 +1735,17 @@ section {
   }
   .floatleft{
     float:none;
-
     background-color: #ffffff;
     height: auto;
   }
   .floatright{
+    width: 100%;
+    display: inline-block;
     float: none;
+  }
+  .tweets{
+    left: 13%;
+    right: 0%;
   }
   .counts{
     margin-left: 20%;

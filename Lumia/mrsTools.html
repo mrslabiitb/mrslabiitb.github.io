@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Recent publications from MRSLab IIT Bombay">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recent publications</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/MRSLabLogo.PNG" rel="icon">
+
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mrsToolsStyle.css">
+</head>
+
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+
+            <div class="logo me-auto">
+                <!--  <h1><a href="index.html">MRSLab</a></h1>-->
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <a href="index.html"><img src="assets/img/MRSLabIITB.png" alt="" class="img-fluid"></a>
+            </div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#research">Research</a></li>
+                    <li class="dropdown active"><a href="index.html#people"><span>People</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="Faculty_details.html">Faculty</a></li>
+                            <li><a href="Alumni_PhD_details.html">Alumni PhD Students</a></li>
+                            <li><a href="Ongoing_PhD_details.html">Ongoing PhD Students</a></li>
+                            <li><a href="#">Project Staff </a></li>
+                            <li><a href="#">Masters Students</a></li>
+                            <li><a href="#">B.Tech Students</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown "><a href="#publications"><span>Publications</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/mrslabiitb.github.io/Lumia/journals.html">Journal</a></li>
+                            <li><a href="#">Conference</a></li>
+                            <li><a href="#">Book Chapter</a></li>
+                            <li><a href="#">Media Coverage</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/recentPub.html">Recent Publications</a></li>
+                            <li class="dropdown"><a href="#"><span>Achievements</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Recent</a></li>
+                                    <li><a href="#">Past</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="mrsTools.html">MRSLab Tools</a></li>
+                            <li class="dropdown"><a href="#"><span> Workshop and Training</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">2022</a></li>
+
+                            </li>
+                            </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span> Field Visits</span> <i class="bi bi-chevron-right"></i></a>
+                        <ul>
+                            <li class="dropdown"><a href="#"><span> 2022</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Vijaywada</a></li>
+                                </ul>
+                                <li class="dropdown"><a href="#"><span> 2019</span> <i class="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Vijaywada</a></li>
+                                    </ul>
+                                    <li class="dropdown"><a href="#"><span> 2018</span> <i class="bi bi-chevron-right"></i></a>
+                                        <ul>
+                                            <li><a href="#">Burdwan</a></li>
+                                            <li><a href="#">Vijaywada</a></li>
+
+                                        </ul>
+                                    </li>
+                        </ul>
+                        </li>
+                        </ul>
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+            <div class="header-social-links d-flex align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="box">
+        <main id="main_mrsT">
+            <br><br>
+            <h2 id="main_mrsT_heading"><u>MRS Lab Tools</u></h2>
+            <h3 class="mrsT_subHeading">A python based QGIS plugin</h3>
+            <div class="mrsT_data">
+                <p>This plugin generates polarimetric descriptors (viz. vegetation indices, polarimetric decomposition parameters) from C3/T3/C2/T2 matrices obtained from PolSARpro The input data needs to be in PolSARpro/ENVI format (*.bin and *.hdr). It
+                    requires numpy, matplotlib python libraries pre-installed.</p>
+                <p><b>QGIS Python Plugin Repository</b>: <a href="https://plugins.qgis.org/plugins/polsar_tools/"><i>Click here</i></a></p>
+                <p><b>Or access from QGIS Desktop</b> > <a href="https://docs.qgis.org/3.16/en/docs/training_manual/qgis_plugins/fetching_plugins.html"><i>Plugin Manager</i></a> > Search for ‘PolSAR tools’</p>
+
+            </div>
+            <hr class="line-1">
+            <h3 class="mrsT_subHeading">Available functionalities</h3>
+            <div class="mrsT_data2">
+                <b>Indices</b>
+                <ul class="mrsT_data_list">
+                    <li>Radar Vegetation Index (RVI) (Full-pol and dual-pol)</li>
+                    <li>Generalized volume Radar Vegetation Index (GRVI)</li>
+                    <li>Polarimetric Radar Vegetation Index (PRVI) (Full-pol and dual-pol)</li>
+                    <li>Dual-pol Radar Vegetation Index (DpRVI)</li>
+                    <li>Degree of Polarization (DOP) (Full-pol, dual-pol, and compact-pol)</li>
+                    <li>Compact-pol Radar Vegetation Index (CpRVI)</li>
+                </ul>
+                <b>Decompositions</b>
+                <ul class="mrsT_data_list">
+                    <li>Model free 3-Component decomposition for full-pol data (MF3CF)</li>
+                    <li>Model free 4-Component decomposition for full-pol data (MF3CF)</li>
+                    <li>Model free 3-Component decomposition for compact-pol data (MF3CC)</li>
+                    <li>Improved S-Omega decomposition for compact-pol data (iS-Omega)</li>
+                </ul>
+            </div>
+            <hr class="line-1">
+            <h3 class="mrsT_subHeading">References</h3>
+            <div class="mrsT_data2">
+                <ul>
+                    <li class="mrsT_data_list referenceList">Chang, J.G., Shoshany, M. and Oh, Y., 2018. Polarimetric Radar Vegetation Index for Biomass Estimation in Desert Fringe Ecosystems. IEEE Transactions on Geoscience and Remote Sensing, 56(12), pp.7102-7108.</li>
+                    <li class="mrsT_data_list referenceList">Ratha, D., Mandal, D., Kumar, V., McNairn, H., Bhattacharya, A. and Frery, A.C., 2019. A generalized volume scattering model-based vegetation index from polarimetric SAR data. IEEE Geoscience and Remote Sensing Letters, 16(11), pp.1791-1795.</li>
+                    <li class="mrsT_data_list referenceList">Mandal, D., Kumar, V., Ratha, D., J. M. Lopez-Sanchez, A. Bhattacharya, H. McNairn, Y. S. Rao, and K. V. Ramana, 2020. Assessment of rice growth conditions in a semi-arid region of India using the Generalized Radar Vegetation Index
+                        derived from RADARSAT-2 polarimetric SAR data, Remote Sensing of Environment, 237: 111561.</li>
+                    <li class="mrsT_data_list referenceList">Dey, S., Bhattacharya, A., Ratha, D., Mandal, D. and Frery, A.C., 2020. Target Characterization and Scattering Power Decomposition for Full and Compact Polarimetric SAR Data. IEEE Transactions on Geoscience and Remote Sensing.</li>
+                    <li class="mrsT_data_list referenceList">Mandal, D., Kumar, V., Ratha, D., Dey, S., Bhattacharya, A., Lopez-Sanchez, J.M., McNairn, H. and Rao, Y.S., 2020. Dual polarimetric radar vegetation index for crop growth monitoring using sentinel-1 SAR data. Remote Sensing of Environment,
+                        247, p.111954.</li>
+                    <li class="mrsT_data_list referenceList">Mandal, D., Ratha, D., Bhattacharya, A., Kumar, V., McNairn, H., Rao, Y.S. and Frery, A.C., 2020. A Radar Vegetation Index for Crop Monitoring Using Compact Polarimetric SAR Data. IEEE Transactions on Geoscience and Remote Sensing,
+                        58 (9), pp. 6321-6335.</li>
+                    <li class="mrsT_data_list referenceList">V. Kumar, D. Mandal, A. Bhattacharya, and Y. S. Rao, 2020. Crop Characterization Using an Improved Scattering Power Decomposition Technique for Compact Polarimetric SAR Data. International Journal of Applied Earth Observations and
+                        Geoinformation, 88: 102052.</li>
+                    <li class="mrsT_data_list referenceList">S. Dey, A. Bhattacharya, A. C. Frery, C. Lopez-Martinez and Y. S. Rao, “A Model-free Four Component Scattering Power Decomposition for Polarimetric SAR Data,” in IEEE Journal of Selected Topics in Applied Earth Observations and Remote
+                        Sensing, 2021.</li>
+                </ul>
+            </div>
+            <hr class="line-1">
+        </main>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
