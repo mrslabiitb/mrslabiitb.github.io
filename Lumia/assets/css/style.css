@@ -894,12 +894,12 @@ section {
 }
 
 
-.animation {
+/* .animation {
   width: 20%;
   border-bottom: 5px solid white;
   overflow: hidden;
   animation: animate 2s linear forwards;
-}
+} */
 
 @keyframes animate {
   0% {
