@@ -1,0 +1,82 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px #7C7C7C;
+}
+
+#main_mrsT {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 10vw 10vh 10vw;
+    padding: 5vh 5vw 5vh 5vw;
+    /* align-items: center; */
+    /* height: 60vh;
+    width: 40vw; */
+    box-shadow: 20px rgba(127, 137, 161, 0.25);
+}
+
+#main_mrsT_heading {
+    padding: 1% 1% 0% 1%;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mrsT_subHeading {
+    padding: 2%;
+    align-self: left;
+}
+
+.mrsT_data {
+    margin: 1% 2% 2% 2%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(124, 124, 124);
+}
+
+.mrsT_data2 {
+    margin: 0% 2% 2% 2%;
+    align-self: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: rgb(124, 124, 124);
+}
+
+.line-1 {
+    height: 1px;
+    background: black;
+    display: block;
+    width: 50%;
+    align-self: center;
+}
+
+.mrsT_data_list {
+    margin: 1%;
+}
+
+
+/* #mainTools {
+    margin: 10vh;
+    padding: 6vh;
+    display: flex;
+    flex-direction: column;
+    font-family: ; 
+
+
+#toolsHeading {
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#toolsContent {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    padding: 5vh;
+    /* height: 50%; */
+
+
+/* width: 50%; 
+} */
